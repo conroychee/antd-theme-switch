@@ -1,5 +1,9 @@
 # antd-theme-switcher
-React: Switch between dark and light theme for antd
+React: Switch between dark and light theme for antd.
+
+The code is a simplified version of dark and light theme switcher only. For detailed information, please refer to the the following link:\
+Reference: https://medium.com/@mzohaib.qc/ant-design-live-theme-588233ea2bbc
+
 
 
 Procedures:
