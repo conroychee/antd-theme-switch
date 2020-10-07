@@ -13,7 +13,7 @@ Procedures:
 
 2) ### `Copy the ~public/color.less into your ~public folder`
 
-3) ### `Copy the following codes into your index.html \<head\> tag`
+3) ### `Copy the following codes into your index.html bottom of \<body\> tag`
   
     \<link rel="stylesheet/less" type="text/css" href="color.less" \/\>\
       \<script>\
