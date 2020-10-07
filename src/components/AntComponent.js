@@ -67,7 +67,7 @@ function AntComponent() {
     )
 }
 
-export default AntComponent
+export default React.memo(AntComponent)
 
 
 

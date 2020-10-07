@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 import { Select } from 'antd';
 import darkVars from './dark.json';
 import lightVars from './light.json';
@@ -13,9 +13,11 @@ function ThemeSelector() {
                 placeholder="Please select theme"
                 value={theme}
                 onSelect={(value) => {
-                    let vars = value === 'light' ? lightVars : darkVars;
-                    vars = { ...vars, '@white': '#fff', '@black': '#000' };
-                    window.less.modifyVars(vars).catch(error => {});
+                    console.log(window.less)
+                    if (value === 'light')
+                        window.less.modifyVars(lightVars)
+                    else
+                        window.less.modifyVars(darkVars)
                     setTheme(value)
                 }}
             >
