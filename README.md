@@ -22,6 +22,7 @@ Procedures:
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; env: 'production'\
         };\
      \<\/script\>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
 
 4) ### `Copy ~src/components/dark.json and ~src/components/dark.json`
 
